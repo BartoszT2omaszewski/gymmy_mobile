@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gymmy_mobile/app/features/home/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Scaffold(),
+      home: const HomePage(),
     );
   }
 }
